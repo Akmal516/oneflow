@@ -4,7 +4,6 @@ import articleimg2 from "..//../Assets/Frame (3).png"
 import articleimg3 from "../../Assets/Frame (4).png"
 
 function Article() {
-
     const cards = [
         {
             img: articleimg1,
@@ -29,7 +28,6 @@ function Article() {
     return (
         <div className="article">
             <h2>The complete platform for smart contracts</h2>
-
             <div className="article-card">
                 {cards.map((card, index) => (
                     <div className="card-box" key={index}>
@@ -42,11 +40,8 @@ function Article() {
                     </div>
                 ))}
             </div>
-          
-    
-
         </div>
     )
 }
 
-export default Article;
+export default Article

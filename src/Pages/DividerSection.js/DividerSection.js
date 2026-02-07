@@ -11,14 +11,13 @@ import asideboximg2 from "../../Assets/Rectangle (19).png"
 import "../../Styles/DividerSection.css"
 
 function DividerSection() {
-
     const usercards = [
         {
             img: userimgcard1,
             name: "Mattias Johnson",
             namedata: "Key Account Manager",
             namework: "Sweco",
-            title: "“With Oneflow, I’ve been able to reduce the time spent on admin significantly. Every hour that I used to spend on admin, can now be spent on selling and closing!”",
+            title: "With Oneflow, I’ve been able to reduce the time spent on admin significantly. Every hour that I used to spend on admin can now be spent on selling and closing!",
             button: "Read full story"
         },
         {
@@ -26,7 +25,7 @@ function DividerSection() {
             name: "Elin Skoglund",
             namedata: "HR Business Partner",
             namework: "Hedin Bil",
-            title: "“The fact that Oneflow is 100% digital makes it so simple and flexible. It gives us peace of mind by providing control and a complete overview of our contract process at all times.”",
+            title: "The fact that Oneflow is 100% digital makes it so simple and flexible. It gives us peace of mind by providing control and a complete overview of our contract process at all times.",
             button: "Read full story"
         },
         {
@@ -34,7 +33,7 @@ function DividerSection() {
             name: "Tor Myhrman",
             namedata: "Head of Indirect Sourcing",
             namework: "Systembolaget",
-            title: "“From board meeting protocols to GDPR agreements, and approval of keycards — Oneflow has removed the pains we weren’t even aware of.”",
+            title: "From board meeting protocols to GDPR agreements and approval of keycards — Oneflow has removed the pains we weren’t even aware of.",
             button: "Read full story"
         },
         {
@@ -42,7 +41,7 @@ function DividerSection() {
             name: "Jonatan Larsson",
             namedata: "Head of People",
             namework: "Kundo",
-            title: "“With Oneflow, it’s very easy to create contracts and templates. Instead of uploading a PDF for signing, we create the contract on the same platform as we sign. And Oneflow’s templates make it very easy to create multiple contracts in one click.”",
+            title: "With Oneflow, it’s very easy to create contracts and templates. Instead of uploading a PDF for signing, we create the contract on the same platform as we sign.",
             button: "Read full story"
         }
     ]
@@ -55,11 +54,7 @@ function DividerSection() {
                     {usercards.map((item, index) => (
                         <div className="user-card" key={index}>
                             <p>{item.title}</p>
-
-                            <button className="user-btn">
-                                {item.button}
-                            </button>
-
+                            <button className="user-btn">{item.button}</button>
                             <div className="user-card-img">
                                 <img src={item.img} alt={item.name} />
                                 <div className="user-info">
@@ -79,7 +74,7 @@ function DividerSection() {
                     <p>Integrate your favorite tools with your contract workflow and work wonders.</p>
                     <button>View all integrations</button>
                 </div>
-                <img src={dstnlogos} />
+                <img src={dstnlogos} alt="Integration logos" />
             </div>
 
             <div className="dstn-imgs-content">
@@ -95,11 +90,12 @@ function DividerSection() {
                             <h2>A Basic Guide on E-signatures and What Makes Them Legally Binding</h2>
                             <span>E-signature | 11 min read</span>
                         </div>
-                        <img src={box1logo} />
+                        <img src={box1logo} alt="E-signature article illustration" />
                     </div>
+
                     <div className="imgs-box2">
-                        <img src={box2logo} />
-                       
+                        <img src={box2logo} alt="Online document signing guide illustration" />
+                        <button>Guide</button>
                         <h2>29 documents you can sign online in 2021</h2>
                         <span>Contract automation | 18 min read</span>
                     </div>
@@ -111,8 +107,10 @@ function DividerSection() {
                     </div>
 
                     <div className="imgs-box4">
-                        <img src={box4logo} />
-                      
+                        <img src={box4logo} alt="Digital sales article illustration" />
+                        <button>Article</button>
+                        <h2>Master digital sales: How to close deals when you’re not allowed to shake hands</h2>
+                        <span>Sales | 6 min read</span>
                     </div>
                 </div>
             </div>
@@ -121,13 +119,13 @@ function DividerSection() {
                 <h2>More from Oneflow</h2>
                 <div className="aside-card-box">
                     <div className="aside-boxs-card">
-                        <img src={asideboximg1} />
+                        <img src={asideboximg1} alt="One platform for all departments" />
                         <span>One platform. All departments</span>
                         <h2>Create, sign and manage any type of agreement you can think of</h2>
                         <button>Find out more</button>
                     </div>
                     <div className="aside-boxs-card">
-                        <img src={asideboximg2} />
+                        <img src={asideboximg2} alt="Why Oneflow illustration" />
                         <span>Why Oneflow</span>
                         <h2>Six reasons why teams around the world love the magic of flow</h2>
                         <button>Find out more</button>
@@ -138,4 +136,4 @@ function DividerSection() {
     )
 }
 
-export default DividerSection;
+export default DividerSection

@@ -45,7 +45,7 @@ function Section() {
             </div>
 
             {/* 3-qism */}
-                <div className="section-data">
+            <div className="section-data">
                 <div className="stn-header">
                     <ul className="stn-header-ul">
                         <li><a href="#">Create</a></li>
