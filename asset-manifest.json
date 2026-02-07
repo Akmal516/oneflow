@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oneflow/static/css/main.7c74c1a6.css",
-    "main.js": "/oneflow/static/js/main.52a9a52b.js",
+    "main.css": "/oneflow/static/css/main.90d27432.css",
+    "main.js": "/oneflow/static/js/main.2b8918b2.js",
     "static/js/453.b120565b.chunk.js": "/oneflow/static/js/453.b120565b.chunk.js",
     "static/media/Rectangle.png": "/oneflow/static/media/Rectangle.eae19c583da4842188ad.png",
     "static/media/Снимок экрана от 2021-07-02 23-48-24 1.png": "/oneflow/static/media/Снимок экрана от 2021-07-02 23-48-24 1.46ea42007fd8f17193b7.png",
@@ -16,12 +16,12 @@
     "static/media/Frame (5).png": "/oneflow/static/media/Frame (5).b6fa6d54424eea3ff98c.png",
     "static/media/Frame (6).png": "/oneflow/static/media/Frame (6).b23c54f735a7113ae377.png",
     "index.html": "/oneflow/index.html",
-    "main.7c74c1a6.css.map": "/oneflow/static/css/main.7c74c1a6.css.map",
-    "main.52a9a52b.js.map": "/oneflow/static/js/main.52a9a52b.js.map",
+    "main.90d27432.css.map": "/oneflow/static/css/main.90d27432.css.map",
+    "main.2b8918b2.js.map": "/oneflow/static/js/main.2b8918b2.js.map",
     "453.b120565b.chunk.js.map": "/oneflow/static/js/453.b120565b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c74c1a6.css",
-    "static/js/main.52a9a52b.js"
+    "static/css/main.90d27432.css",
+    "static/js/main.2b8918b2.js"
   ]
 }
