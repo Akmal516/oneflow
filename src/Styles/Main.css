@@ -1,0 +1,171 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Assets/Rectangle\ \(12\).png"); /* <-- rasmni shu yerga qo‘y */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.main-content {
+    max-width: 520px;
+}
+
+.main-text h2 {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.main-button {
+    display: flex;
+    gap: 15px;
+}
+
+.main-button button {
+    padding: 14px 26px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
+
+/* Sariq tugma */
+.main-button button:first-child {
+    background-color: #f6c445;
+    color: #000;
+}
+
+.main-button button:first-child:hover {
+    background-color: #e5b437;
+}
+
+/* Qora tugma */
+.main-button button:last-child {
+    background-color: #0f2a3d;
+    color: #fff;
+}
+
+.main-button button:last-child:hover {
+    background-color: #13364f;
+}
+/* Section */
+.testimonials {
+  padding: 80px 6%;
+  background-color: #ffffff;
+  font-family: "Inter", sans-serif;
+  margin-top: 1700px;
+  width: 100%;
+  display: flex;
+}
+
+/* Title */
+.testimonials h2 {
+  font-size: 36px;
+  font-weight: 500;
+  color: #0b3c49;
+  margin-bottom: 48px;
+}
+
+/* Grid */
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+/* Card */
+.testimonial-card {
+  border: 1px solid #e5eef3;
+  border-radius: 12px;
+  padding: 32px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Text */
+.quote {
+  font-size: 16px;
+  line-height: 1.65;
+  color: #0b3c49;
+  margin-bottom: 20px;
+}
+
+/* Link */
+.read-more {
+  font-size: 14px;
+  font-weight: 500;
+  color: #e63970;
+  text-decoration: none;
+  margin-bottom: 24px;
+  display: inline-block;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Author */
+.author {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Avatar */
+.author img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Name */
+.author h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: #0b3c49;
+}
+
+/* Role */
+.author span {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #6b8794;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 60px 5%;
+  }
+
+  .testimonials h2 {
+    font-size: 28px;
+  }
+}
