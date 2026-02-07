@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/oneflow/static/css/main.777cb4d5.css",
-    "main.js": "/oneflow/static/js/main.e8b093dd.js",
+    "main.css": "/oneflow/static/css/main.7c74c1a6.css",
+    "main.js": "/oneflow/static/js/main.52a9a52b.js",
     "static/js/453.b120565b.chunk.js": "/oneflow/static/js/453.b120565b.chunk.js",
     "static/media/Rectangle.png": "/oneflow/static/media/Rectangle.eae19c583da4842188ad.png",
+    "static/media/Снимок экрана от 2021-07-02 23-48-24 1.png": "/oneflow/static/media/Снимок экрана от 2021-07-02 23-48-24 1.46ea42007fd8f17193b7.png",
     "static/media/Rectangle (12).png": "/oneflow/static/media/Rectangle (12).d97fa174b024264d9fca.png",
     "static/media/Rectangle (11).png": "/oneflow/static/media/Rectangle (11).69713feb370f19a832e7.png",
     "static/media/Rectangle (18).png": "/oneflow/static/media/Rectangle (18).6638591568e1974c2285.png",
@@ -15,12 +16,12 @@
     "static/media/Frame (5).png": "/oneflow/static/media/Frame (5).b6fa6d54424eea3ff98c.png",
     "static/media/Frame (6).png": "/oneflow/static/media/Frame (6).b23c54f735a7113ae377.png",
     "index.html": "/oneflow/index.html",
-    "main.777cb4d5.css.map": "/oneflow/static/css/main.777cb4d5.css.map",
-    "main.e8b093dd.js.map": "/oneflow/static/js/main.e8b093dd.js.map",
+    "main.7c74c1a6.css.map": "/oneflow/static/css/main.7c74c1a6.css.map",
+    "main.52a9a52b.js.map": "/oneflow/static/js/main.52a9a52b.js.map",
     "453.b120565b.chunk.js.map": "/oneflow/static/js/453.b120565b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.777cb4d5.css",
-    "static/js/main.e8b093dd.js"
+    "static/css/main.7c74c1a6.css",
+    "static/js/main.52a9a52b.js"
   ]
 }
