@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/oneflow/static/css/main.93483c8c.css",
+    "main.js": "/oneflow/static/js/main.30b4dad8.js",
+    "static/js/453.b120565b.chunk.js": "/oneflow/static/js/453.b120565b.chunk.js",
+    "static/media/Rectangle.png": "/oneflow/static/media/Rectangle.eae19c583da4842188ad.png",
+    "static/media/Rectangle (12).png": "/oneflow/static/media/Rectangle (12).d97fa174b024264d9fca.png",
+    "static/media/Rectangle (11).png": "/oneflow/static/media/Rectangle (11).69713feb370f19a832e7.png",
+    "static/media/Rectangle (18).png": "/oneflow/static/media/Rectangle (18).6638591568e1974c2285.png",
+    "static/media/Rectangle (19).png": "/oneflow/static/media/Rectangle (19).f7244082e8e0659bebce.png",
+    "static/media/Frame (7).png": "/oneflow/static/media/Frame (7).0203b06150330068d13e.png",
+    "static/media/Frame.png": "/oneflow/static/media/Frame.dc665a8b31930a95e5f0.png",
+    "static/media/Rectangle (17).png": "/oneflow/static/media/Rectangle (17).4df3b49a8b357b01d993.png",
+    "static/media/stn-header-img.png": "/oneflow/static/media/stn-header-img.30fc7e83cc0631706349.png",
+    "static/media/Frame (5).png": "/oneflow/static/media/Frame (5).b6fa6d54424eea3ff98c.png",
+    "static/media/Frame (6).png": "/oneflow/static/media/Frame (6).b23c54f735a7113ae377.png",
+    "static/media/logo.svg": "/oneflow/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/oneflow/index.html",
+    "main.93483c8c.css.map": "/oneflow/static/css/main.93483c8c.css.map",
+    "main.30b4dad8.js.map": "/oneflow/static/js/main.30b4dad8.js.map",
+    "453.b120565b.chunk.js.map": "/oneflow/static/js/453.b120565b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93483c8c.css",
+    "static/js/main.30b4dad8.js"
+  ]
+}
